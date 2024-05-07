@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "MVCFeedbackIndex";
+}
+<script src="~/Scripts/jquery-3.4.1.min.js"></script>
+<script src="~/Content/MVCFeedback.js"></script>
+
+<h2>MVCFeedbackIndex</h2>
+<input type="hidden" id="txthdn"/>
+<label>First_Name</label></br>
+<input type="text" id="txtName" placeholder="Enter name" style="width:300px" /></br></br>
+<label>Last_Name</label></br>
+<input type="text" id="txtLname" placeholder="Enter class" style="width:300px" /></br></br>
+<label>Age</label></br>
+<input type="text" id="txtAge" placeholder="Enter class" style="width:300px" /></br></br>
+<label>Email_id</label></br>
+<input type="text" id="txtEmail" placeholder="Enter email" style="width:300px" /></br></br>
+
+
+<label>Address</label></br>
+<textarea typeof="text" placeholder="Enter your Address" style="width:1500px;" id="txtAdd">
+</textarea></br></br>
+
+<input type="button" value="submit" class="btn btn-success " onclick="Savereg()" />
+<table id="MVCFeedback" class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Srno</th>
+            <th>Id</th>
+            <th>First_Name</th>
+            <th>Last_Name</th>
+            <th>Age</th>
+            <th>Email_id</th>
+            <th>Address</th>
+            <th></th>
+
+        </tr>
+    </thead>
+    <tbody></tbody>
+</table>
